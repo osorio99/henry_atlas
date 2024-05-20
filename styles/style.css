@@ -1,0 +1,34 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+header{
+    
+    background-image: url("../assets/images/banner-bk.jpg");
+    background-size: cover;
+    height: 85vh;
+    color: aliceblue;
+ 
+}
+
+.main{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.link1{
+    margin-top: 60px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link2{
+   text-decoration: none;
+    color: aliceblue;
+}
+
+.img{
+
+}
