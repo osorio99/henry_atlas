@@ -195,7 +195,33 @@ input{
     color: aliceblue;
 }
 
+.popo1{
+    margin-top: 30px;
+    margin-right: 25px;
+}
 
+.popo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 25px;
+    width: 700px;
+}
+header h1{
+ margin-left: 15px;
+ font-size: 60px;
+}
+header a{
+    margin-left: 15px;
+   }
+   
+   header img{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    height: 100 px;
+   }
+   
 
 
 footer{
@@ -209,5 +235,220 @@ footer{
 
 .TextF{
     margin-left: 150px;
+}
+
+/******************************************************/
+
+@media (max-width: 1279px){
+    .cajaT {
+        
+    
+        font-size: 25px;
+    
+        }
+    
+        input{
+           
+            width: 200px;  
+        }
+        .mensaje{
+            
+            width: 400px;
+        }
+    
+        .boton{
+            width: 400px;
+        }
+}
+
+/******************************************************/
+@media (max-width: 920px){
+ 
+    .section4 img{
+        height: 50px;
+     }
+    
+     .parte1 img{
+        height: 250px;
+     }
+    
+     .parte2 img{
+        height: 250px;
+     }
+}
+
+/******************************************************/
+
+
+@media (max-width: 768px){
+
+header{
+    height: 450px;
+    
+}
+
+header .popo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+ width: 250px;
+}
+header h1{
+ margin-left: 15px;
+ font-size: 25px;
+}
+header a{
+    margin-left: 15px;
+   }
+   
+   header img{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    height: 50px;
+   }
+   
+
+
+
+
+
+.title2{
+    font-size: 40px;
+}
+
+.imagenes img{
+    height: 100px;
+}
+
+.imagenes1 p{
+    font-size: 12px;
+display: flex;
+
+}
+
+
+
+    .parte1 img{
+        height: 150px;
+     }
+    
+     .parte2 img{
+        height: 150px;
+     }
+
+
+.box{
+    width: 250px;
+    font-size: 22px;
+   
+ 
+ }
+ 
+ 
+ .box1{
+     width: 250px;
+     font-size: 22px;
+   
+
+  
+  }
+  
+ .box1 p{
+     margin-top: 8px;
+   }
+ 
+
+     .section4 img{
+        height:30px;
+     }
+    
+   input{
+       
+    width: 150px;  
+}
+.mensaje{
+    
+    width: 300px;
+}
+
+.boton{
+    width: 300px;
+}
+.cajaT {
+        
+    margin-top: 10px;
+    font-size: 15px;
+ margin-left: 15PX;
+    }
+.contenedor p
+
+    .section4 img{
+        height: 30px;
+     }
+
+     .registro h6{
+        font-size: 12px;
+     }
+
+     .section5{
+     
+        flex-direction: column;
+     }
+     .login{
+        margin-top: -30px;
+       
+     }
+     .registro{
+        margin-left: 20px;
+     }
+ a{
+    margin-top: 15px;
+ }
+
+}
+
+ 
+
+
+
+@media (max-width: 480px){
+
+
+    .title2{
+        font-size: 20px;
+    }
+    
+  .imagenes{
+    font-size: 12px;
+  }
+    
+
+
+.imagenes1 p{
+    font-size: 10px;
+
+}
+
+
+    
+
+
+
+ 
+.section4 img{
+    height: 20px;
+ }
+
+ .parte1 img{
+    height: 90px;
+ }
+
+ .parte2 img{
+    height: 90px;
+ }
+
+
 }
 
