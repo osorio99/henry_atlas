@@ -79,6 +79,7 @@ a{
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
+    margin-top: 10px;
 }
 
 
@@ -432,6 +433,28 @@ display: flex;
 }
 
 
+.box{
+    width: 220px;
+    font-size: 16px;
+   
+ 
+ }
+ 
+ 
+ .box1{
+     width: 220px;
+     font-size: 16px;
+     margin-bottom: 10px;
+   
+
+  
+  }
+
+ 
+  
+
+
+
     
 
 
@@ -449,6 +472,12 @@ display: flex;
     height: 90px;
  }
 
+
+
+ input{
+       
+    width: 130px;  
+}
 
 }
 
